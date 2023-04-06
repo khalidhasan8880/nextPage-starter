@@ -1,7 +1,9 @@
+import Header from "./components/Header"
+
 function App() {
   return (
     <div className='App'>
-      <h1 className="text-3xl font-bold text-red-600">Welcome to nextPage!</h1>
+      <Header></Header>
     </div>
   )
 }
